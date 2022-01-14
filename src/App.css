@@ -1,23 +1,20 @@
-.App {
-  text-align: center;
-  color: white;
-}
+
 
 .App .Background {
-  height: 600px;
+  height: 560px;
 }
 
-.App h1 {
+.App h1 {text-align: center;
   position: relative;
   top:650px;
   color: white;
 }
-.App h3{
+.App h3{text-align: center;
     position: relative;
-  top: 200px;
+  
   color: white;
 }
-.App p {
+.App p {text-align: center;
   position: relative;
   top:650px;
   color: white;}

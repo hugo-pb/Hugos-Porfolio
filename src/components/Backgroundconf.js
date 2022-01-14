@@ -1,7 +1,7 @@
 const Conf = {
   background: {
     color: {
-      value: "#000",
+      value: "#202122",
     },
     position: "100px 100px",
     repeat: "no-repeat",

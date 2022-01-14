@@ -1,0 +1,13 @@
+.Contact {
+  position: fixed;
+}
+.Contact ul {
+  display: absolute;
+color: white;
+list-style: none;
+}
+.Contact li {
+    color: white;
+    margin-top: 25px;
+    font-size: 39px;
+}
