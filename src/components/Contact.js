@@ -1,9 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faMobile } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import Mail from "./popups/Mail";
+
 import "../styles/Contact.css";
+import "bootstrap"
+import Example from "./popups/popup";
 export default function Contact() {
   return (
     <div className="Contact">
@@ -14,12 +16,11 @@ export default function Contact() {
           </a>
         </li>
         <li>
-          {" "}
-          <FontAwesomeIcon icon={faMobile} />
+          <Example />
         </li>
         <li>
           {" "}
-          <FontAwesomeIcon icon={faEnvelope} />
+          <Mail />
         </li>
       </ul>
     </div>

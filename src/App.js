@@ -10,8 +10,10 @@ function App() {
       <div className="Background section">
         <h3>Hi, this is</h3>
         <Background />
-        <h1>Hugo Palomera</h1>
-        <p>Front-end Developer based in Edmonton Canada.</p>
+        <div className="name">
+          <h1>Hugo Palomera</h1>
+          <p>Front-end Developer based in Edmonton Canada.</p>
+        </div>
       </div>
       <div className="section">
         <Projects />
