@@ -17,9 +17,15 @@ export default function Mail() {
       <Overlay target={target.current} show={show} placement="right">
         {(props) => (
           <Tooltip id="overlay-Mail" {...props}>
-            <a href="H.palomerabecerra@gmail.com">
-              H.palomerabecerra@gmail.com
-            </a>
+            <form id="contact-form">
+              <input type="text" name="user_name" placeholder="Name" />
+              <br />
+              <input type="email" name="user_email" placeholder="Email" />
+              <br />
+              <textarea name="message" placeholder="Message" />
+              <br />
+              <input type="submit" value="Send" />
+            </form>
           </Tooltip>
         )}
       </Overlay>

@@ -2,7 +2,7 @@ import "./App.css";
 import Background from "./components/Background";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App container">
@@ -18,6 +18,7 @@ function App() {
       <div className="section">
         <Projects />
       </div>
+      <Footer />
     </div>
   );
 }
