@@ -11,7 +11,7 @@ export default function Name() {
     <div className="Name">
       <animated.div style={styles}>
         <h1>Hugo Palomera</h1>
-        <p>Front-end Developer based in Edmonton Canada.</p>
+        <p>React.js Developer based in Edmonton Canada.</p>
       </animated.div>
     </div>
   );

@@ -1,9 +1,20 @@
 .Projects {
 
-    margin-top: 30rem;
+    margin-top: 10rem;
 margin-bottom: 100px;
 text-align: center;
 color: white;
 z-index: 7;
 }
-
+.Projects .Img1 {
+    height: 12rem;
+}
+.Projects h1 {
+    margin-bottom: 5rem;
+}
+.Projects p {
+    margin-top: 2rem;
+}
+.Projects h2 {
+    margin-bottom: 1rem;
+}
