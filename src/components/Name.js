@@ -1,18 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Name.css";
-import { useSpring, animated } from "react-spring";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Name() {
-  const styles = useSpring({
-    to: [{ marginLeft: 0, delay: 850,  }],
-    from: { marginLeft: 500000 },
-   
-  });
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="Name">
-      <animated.div style={styles}>
-        <h1>Hugo Palomera</h1>
-        <p>React.js Developer based in Edmonton Canada.</p>
-      </animated.div>
+    <div data-aos="fade-right" className="Name">
+      <h1>Hugo Palomera</h1>
+      <p>React.js Developer based in Edmonton Canada.</p>
     </div>
   );
 }
