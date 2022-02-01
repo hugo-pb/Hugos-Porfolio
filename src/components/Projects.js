@@ -16,7 +16,7 @@ export default function Projects() {
       </h1>
 
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-6">
           <h2 data-aos="slide-up">
             {" "}
             <a
@@ -38,7 +38,7 @@ export default function Projects() {
             search for current weather and the weekly forecast of any city.
           </p>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <h2 data-aos="slide-up">
             <a href="https://hugojocelyn.com" target="_blank" rel="noreferrer">
               Wedding Website{" "}

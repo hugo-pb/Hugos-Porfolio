@@ -1,0 +1,23 @@
+.Experience h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 4rem;;
+}
+.Experience h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.Experience .Img1 {
+    height: 12rem;
+}
+.Experience {
+
+    margin-top: 10rem;
+margin-bottom: 100px;
+text-align: center;
+color: white;
+z-index: 7;
+}
+.Experience p {
+    margin-top: 2rem;}

@@ -9,7 +9,7 @@ export default function Name() {
   return (
     <div data-aos="fade-right" className="Name">
       <h1>Hugo Palomera</h1>
-      <p>React.js Developer based in Edmonton Canada.</p>
+      <p>Web Developer based in Edmonton Canada.</p>
     </div>
   );
 }
