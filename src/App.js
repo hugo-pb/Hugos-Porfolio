@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="App container">
       <div className="Background section">
-       <Greating />
+        <Greating />
         <Contact />
         <Background />
-        <Name/>
+        <Name />
       </div>
       <div className="section">
-        <Projects />
         <Experience />
+        <Projects />
       </div>
       <Footer />
     </div>

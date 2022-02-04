@@ -1,22 +1,22 @@
-import React from "react";
-import { useSpring, animated } from "react-spring";
+import React, {useEffect} from "react";
 import "../styles/Greating.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Greating() {
- const styles = useSpring({
-   to: [{ opacity: 1, color: "#ffaaee", delay: 650 }],
-   from: { opacity: 0, color: "white" },
- });
+ useEffect(() => {
+   AOS.init({ duration: 3000 });
+ }, []);
   return (
-   <div className="Greating" >
-      <animated.div style={styles}>
-        
-        
-            
-              <h3>Hey!   <br/>this is</h3>
-          
-       
-   
-      </animated.div>
-  </div>
+    <div
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      className="Greating"
+    >
+      <h3>
+        Hey! <br />
+        this is
+      </h3>
+    </div>
   );
 }

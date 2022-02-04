@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className="Projects">
       <h1 data-aos="fade-left" className="Project">
-        Projects
+        Personal Projects
       </h1>
 
       <div className="row">
