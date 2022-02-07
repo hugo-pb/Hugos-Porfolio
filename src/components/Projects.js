@@ -20,7 +20,7 @@ export default function Projects() {
           <h2 data-aos="slide-up">
             {" "}
             <a
-              href="https://vibrant-mestorf-8ee54c.netlify.app/"
+              href="https://reactjustweather.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
