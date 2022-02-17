@@ -21,3 +21,8 @@ z-index: 7;
 }
 .Experience p {
     margin-top: 2rem;}
+    .Experience {
+        background-color: rgb(68, 84, 99);
+ padding-top: 2rem;
+ padding-bottom: 2rem ;
+    }

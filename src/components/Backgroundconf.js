@@ -44,7 +44,7 @@ const Conf = {
   },
   particles: {
     color: {
-      value: "#ffffff",
+      value: "#fffff",
     },
     links: {
       color: {
